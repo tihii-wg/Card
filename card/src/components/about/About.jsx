@@ -6,9 +6,8 @@ function About() {
     <div className="about">
       <h2>Podolian Vladimir</h2>
       <p>
-        Full-stack web developer and teacher at Udemy. When not coding or
-        preparing a course, I like to play board games, to cook (and eat), or to
-        just enjoy the Portuguese sun at the beach.
+        Full-stack web developer. When not coding , I like to read books, to cook (and eat), or to
+        just enjoy the summer sun at the beach.
       </p>
     </div>
   );
