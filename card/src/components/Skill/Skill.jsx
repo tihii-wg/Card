@@ -1,9 +1,10 @@
+import "./Skill.css";
+
 function Skill(props) {
   return (
-    <div>
-		  <span style={{ backgroundColor: props.color }}>
-			  {props.skill}
-		  </span>
+    <div className="skill" style={{ backgroundColor: props.color }}>
+      <span>{props.skill}</span>
+      <span>{props.emoji}</span>
     </div>
   );
 }
