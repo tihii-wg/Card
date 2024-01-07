@@ -1,14 +1,16 @@
 import "./App.css";
+import Avatar from "./components/avatar/Avatar";
+import About from "./components/about/About";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
-    <div className="App">
-      <img srs="../public/wolf-3022813_1280.webp" alt="avatar" />
-      <div>
-        <h2>name</h2>
-        <p>about</p>
+    <div className="card">
+      <Avatar />
+      <div className="data">
+        <About />
+        <Skills />
       </div>
-      <div>skills</div>
     </div>
   );
 }
